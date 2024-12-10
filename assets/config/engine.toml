@@ -1,0 +1,35 @@
+# NovaEngine Configuration File
+
+[window]
+title = "NovaEngine"                    # The title of the game window
+width = 1280                            # Window width in pixels
+height = 720                            # Window height in pixels
+fullscreen = false                      # Whether the window is fullscreen
+borderless = false                      # Whether the window is borderless
+resizable = true                        # Allows resizing of the window
+vsync = true                            # Enable vertical synchronization (VSync)
+refresh_rate = 60                       # Refresh rate for the display
+
+[renderer]
+version = "4.6"                         # OpenGL version
+profile = "core"                        # OpenGL profile version
+enable_debug_output = true              # Enable OpenGL debug output
+max_draw_calls = 10000                  # Maximum number of draw calls per frame
+default_clear_color = [0.1, 0.1, 0.1, 1.0]  # RGBA color for clearing the screen.
+
+[input]
+mouse_sensitivity = 1.0                 # Sensitivity for mouse movements
+
+[audio]
+enable_audio = true                     # Enable audio engine
+master_volume = 0.5                     # Master volume (0.0 to 1.0)
+
+[debug]
+enable_debug_mode = false               # Enable or disable debug mode
+log_level = "info"                      # Log level (debug, info, warn, error, etc.)
+log_file = "logs/engine.log"            # Log file path
+
+[ui]
+font = "assets/fonts/OpenSans.ttf"      # Default font for UI
+font_size = 16                          # Default font size
+theme = "dark"                          # UI theme (dark, light)
