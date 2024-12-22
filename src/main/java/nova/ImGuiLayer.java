@@ -1,6 +1,7 @@
 package nova;
 
 import editor.GameViewWindow;
+import editor.MenuBar;
 import editor.PropertiesWindow;
 import imgui.*;
 import imgui.callback.ImStrConsumer;
@@ -27,6 +28,7 @@ public class ImGuiLayer {
 
     private GameViewWindow gameViewWindow;
     private PropertiesWindow propertiesWindow;
+    private MenuBar menuBar = new MenuBar();
 
     public ImGuiLayer(long glfwWindow, PickingTexture pickingTexture) {
         this.glfwWindow = glfwWindow;
@@ -170,7 +172,7 @@ public class ImGuiLayer {
 
         fontConfig.setPixelSnapH(true);
 
-        fontAtlas.addFontFromFileTTF("assets/fonts/OpenSans.ttf", 22, fontConfig);
+        fontAtlas.addFontFromFileTTF("assets/fonts/OpenSans.ttf", 18, fontConfig);
         fontConfig.destroy();
 
         ImGuiFreeType.buildFontAtlas(fontAtlas, ImGuiFreeType.RasterizerFlags.LightHinting);
@@ -192,6 +194,7 @@ public class ImGuiLayer {
         gameViewWindow.imgui();
         propertiesWindow.update(dt, currentScene);
         propertiesWindow.imgui();
+        menuBar.imgui();
         ImGui.end();
         ImGui.render();
 
