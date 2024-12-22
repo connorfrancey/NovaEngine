@@ -4,10 +4,7 @@ import components.Component;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class CircleCollider extends Component {
-    // Logger
-    private static final Logger LOGGER = LogManager.getLogger(CircleCollider.class);
-
+public class CircleCollider extends Collider {
     private float radius = 1f;
 
     public float getRadius() {

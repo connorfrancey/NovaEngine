@@ -5,11 +5,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.joml.Vector2f;
 
-public class Box2DCollider extends Component {
-    // Logger
-    private static final Logger LOGGER = LogManager.getLogger(Box2DCollider.class);
-
+public class Box2DCollider extends Collider {
     private Vector2f halfSize = new Vector2f(1);
+    private Vector2f origin = new Vector2f();
 
     public Vector2f getHalfSize() {
         return halfSize;
@@ -17,5 +15,9 @@ public class Box2DCollider extends Component {
 
     public void setHalfSize(Vector2f halfSize) {
         this.halfSize = halfSize;
+    }
+
+    public Vector2f getOrigin() {
+        return this.origin;
     }
 }

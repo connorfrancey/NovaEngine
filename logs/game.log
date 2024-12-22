@@ -880,3 +880,38 @@
 2024-12-10 07:55:18 [main] INFO  scenes.Scene - Saving and exiting Scene
 2024-12-10 07:55:18 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
 2024-12-10 07:55:18 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-22 09:44:36 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-22 09:44:36 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-22 09:44:36 [main] INFO  nova.Window - Initializing GLFW
+2024-12-22 09:44:37 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-22 09:44:39 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-22 09:44:39 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-22 09:44:42 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-22 09:44:42 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-22 09:44:43 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-22 09:44:43 [main] INFO  nova.Window - Changing scene to ID: 0
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Loading Scene
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 7 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 8 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 9 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 10 to scene.
+2024-12-22 09:44:43 [main] INFO  components.TranslateGizmo - Initialized TranslateGizmo
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 11 to scene.
+2024-12-22 09:44:43 [main] INFO  scenes.Scene - Adding GameObject: 12 to scene.
+2024-12-22 09:44:43 [main] INFO  components.ScaleGizmo - Initialized ScaleGizmo
+2024-12-22 09:44:43 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-22 09:44:43 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-22 09:44:43 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-22 09:44:43 [main] INFO  nova.MouseListener - Creating a new MouseListener instance.
+2024-12-22 09:44:43 [main] INFO  nova.KeyListener - Creating a new KeyListener instance.
+2024-12-22 09:44:48 [main] INFO  scenes.Scene - Adding GameObject: 13 to scene.
+2024-12-22 09:45:07 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-22 09:45:07 [main] INFO  scenes.Scene - Saving and exiting Scene
+2024-12-22 09:45:07 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-22 09:45:08 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback

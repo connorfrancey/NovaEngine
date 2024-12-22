@@ -1,20 +1,15 @@
 package physics2d.components;
 
 import components.Component;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.jbox2d.dynamics.Body;
 import org.joml.Vector2f;
 import physics2d.enums.BodyType;
 
 public class Rigidbody2D extends Component {
-    // Logger
-    private static final Logger LOGGER = LogManager.getLogger(Rigidbody2D.class);
-
     private Vector2f velocity = new Vector2f();
     private float angularDamping = 0.8f;
     private float linearDamping = 0.9f;
-    private float mass = 0.0f;
+    private float mass = 0;
     private BodyType bodyType = BodyType.Dynamic;
 
     private boolean fixedRotation = false;
@@ -76,7 +71,15 @@ public class Rigidbody2D extends Component {
         return fixedRotation;
     }
 
-    public void setFixedRotation(boolean continuousCollision) {
+    public void setFixedRotation(boolean fixedRotation) {
+        this.fixedRotation = fixedRotation;
+    }
+
+    public boolean isContinuousCollision() {
+        return continuousCollision;
+    }
+
+    public void setContinuousCollision(boolean continuousCollision) {
         this.continuousCollision = continuousCollision;
     }
 
