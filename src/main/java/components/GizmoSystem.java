@@ -9,8 +9,6 @@ import static nova.KeyCodes.NOVA_KEY_E;
 import static nova.KeyCodes.NOVA_KEY_R;
 
 public class GizmoSystem extends Component {
-    // Logger
-    private Logger LOGGER = LogManager.getLogger(GizmoSystem.class);
     private Spritesheet gizmos;
     private int usingGizmo = 0;
 

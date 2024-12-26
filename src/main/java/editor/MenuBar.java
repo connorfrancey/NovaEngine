@@ -14,6 +14,7 @@ public class MenuBar {
             if (ImGui.menuItem("Save", "Ctrl+S")) {
                 EventSystem.notify(null, new Event(EventType.SaveLevel));
             }
+
             if (ImGui.menuItem("Load", "Ctrl+O")) {
                 EventSystem.notify(null, new Event(EventType.LoadLevel));
             }

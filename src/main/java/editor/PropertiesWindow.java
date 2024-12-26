@@ -28,7 +28,7 @@ public class PropertiesWindow {
     public void update(float dt, Scene currentScene) {
         debounce -= dt;
 
-        if (MouseListener.mouseButtonDown(NOVA_MOUSE_BUTTON_LEFT) && debounce < 0) {
+        if (!MouseListener.isDragging() && MouseListener.mouseButtonDown(NOVA_MOUSE_BUTTON_LEFT) && debounce < 0) {
             int x = (int)MouseListener.getScreenX();
             int y = (int)MouseListener.getScreenY();
             int gameObjectId = pickingTexture.readPixel(x, y);

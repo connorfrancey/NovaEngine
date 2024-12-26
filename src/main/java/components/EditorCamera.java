@@ -5,10 +5,12 @@ import nova.KeyListener;
 import nova.MouseListener;
 import org.joml.Vector2f;
 
+import static nova.KeyCodes.NOVA_MOUSE_BUTTON_MIDDLE;
 import static org.lwjgl.glfw.GLFW.GLFW_KEY_KP_DECIMAL;
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_MIDDLE;
 
 public class EditorCamera extends Component {
+
     private float dragDebounce = 0.032f;
 
     private Camera levelEditorCamera;
@@ -26,17 +28,18 @@ public class EditorCamera extends Component {
 
     @Override
     public void editorUpdate(float dt) {
-        if (MouseListener.mouseButtonDown(GLFW_MOUSE_BUTTON_MIDDLE) && dragDebounce > 0) {
-            this.clickOrigin = new Vector2f(MouseListener.getOrthoX(), MouseListener.getOrthoY());
+        if (MouseListener.mouseButtonDown(NOVA_MOUSE_BUTTON_MIDDLE) && dragDebounce > 0) {
+            this.clickOrigin = new Vector2f(MouseListener.getWorld());
             dragDebounce -= dt;
-        } else if (MouseListener.mouseButtonDown(GLFW_MOUSE_BUTTON_MIDDLE)) {
-            Vector2f mousePos = new Vector2f(MouseListener.getOrthoX(), MouseListener.getOrthoY());
+            return;
+        } else if (MouseListener.mouseButtonDown(NOVA_MOUSE_BUTTON_MIDDLE)) {
+            Vector2f mousePos = MouseListener.getWorld();
             Vector2f delta = new Vector2f(mousePos).sub(this.clickOrigin);
             levelEditorCamera.position.sub(delta.mul(dt).mul(dragSensitivity));
             this.clickOrigin.lerp(mousePos, dt);
         }
 
-        if (dragDebounce <= 0.0f && !MouseListener.mouseButtonDown(GLFW_MOUSE_BUTTON_MIDDLE)) {
+        if (dragDebounce <= 0.0f && !MouseListener.mouseButtonDown(NOVA_MOUSE_BUTTON_MIDDLE)) {
             dragDebounce = 0.1f;
         }
 

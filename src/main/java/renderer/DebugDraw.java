@@ -16,11 +16,9 @@ import static org.lwjgl.opengl.GL30.glBindVertexArray;
 import static org.lwjgl.opengl.GL30.glGenVertexArrays;
 
 public class DebugDraw {
-    // TODO: Should be moved to a config file
     private static int MAX_LINES = 500;
 
     private static List<Line2D> lines = new ArrayList<>();
-
     // 6 floats per vertex, 2 vertices per line
     private static float[] vertexArray = new float[MAX_LINES * 6 * 2];
     private static Shader shader = AssetPool.getShader("assets/shaders/debugLine2D.glsl");
@@ -35,7 +33,7 @@ public class DebugDraw {
         vaoID = glGenVertexArrays();
         glBindVertexArray(vaoID);
 
-        // Create the VBO and buffer some memory
+        // Create the vbo and buffer some memory
         vboID = glGenBuffers();
         glBindBuffer(GL_ARRAY_BUFFER, vboID);
         glBufferData(GL_ARRAY_BUFFER, vertexArray.length * Float.BYTES, GL_DYNAMIC_DRAW);
@@ -56,7 +54,7 @@ public class DebugDraw {
             started = true;
         }
 
-        // Remove deadlines
+        // Remove dead lines
         for (int i=0; i < lines.size(); i++) {
             if (lines.get(i).beginFrame() < 0) {
                 lines.remove(i);
@@ -65,10 +63,9 @@ public class DebugDraw {
         }
     }
 
+
     public static void draw() {
-        if (lines.size() <= 0) {
-            return;
-        }
+        if (lines.size() <= 0) return;
 
         int index = 0;
         for (Line2D line : lines) {
@@ -105,7 +102,7 @@ public class DebugDraw {
         // Draw the batch
         glDrawArrays(GL_LINES, 0, lines.size() * 6 * 2);
 
-        // Disable location
+        // Disable Location
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);
         glBindVertexArray(0);
@@ -114,12 +111,11 @@ public class DebugDraw {
         shader.detach();
     }
 
-    // ------------------------------------------------------------------------
-    // Add Line2D methods
-    // ------------------------------------------------------------------------
-
+    // ==================================================
+    // Add line2D methods
+    // ==================================================
     public static void addLine2D(Vector2f from, Vector2f to) {
-        // TODO: Add constants for common colors
+        // TODO: ADD CONSTANTS FOR COMMON COLORS
         addLine2D(from, to, new Vector3f(0, 1, 0), 1);
     }
 
@@ -132,12 +128,12 @@ public class DebugDraw {
         DebugDraw.lines.add(new Line2D(from, to, color, lifetime));
     }
 
-    // ------------------------------------------------------------------------
+    // ==================================================
     // Add Box2D methods
-    // ------------------------------------------------------------------------
+    // ==================================================
     public static void addBox2D(Vector2f center, Vector2f dimensions, float rotation) {
+        // TODO: ADD CONSTANTS FOR COMMON COLORS
         addBox2D(center, dimensions, rotation, new Vector3f(0, 1, 0), 1);
-
     }
 
     public static void addBox2D(Vector2f center, Vector2f dimensions, float rotation, Vector3f color) {
@@ -166,11 +162,11 @@ public class DebugDraw {
         addLine2D(vertices[2], vertices[3], color, lifetime);
     }
 
-
-    // ------------------------------------------------------------------------
+    // ==================================================
     // Add Circle methods
-    // ------------------------------------------------------------------------
+    // ==================================================
     public static void addCircle(Vector2f center, float radius) {
+        // TODO: ADD CONSTANTS FOR COMMON COLORS
         addCircle(center, radius, new Vector3f(0, 1, 0), 1);
     }
 

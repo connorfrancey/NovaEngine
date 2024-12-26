@@ -1383,3 +1383,740 @@
 2024-12-22 11:52:57 [main] INFO  nova.Window - Exiting the main engine loop.
 2024-12-22 11:52:57 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
 2024-12-22 11:52:57 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 11:49:58 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 11:49:58 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 11:49:58 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 11:49:58 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 11:49:58 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 11:49:59 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 11:50:01 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 11:50:01 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 11:50:01 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 11:50:01 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 11:50:02 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 11:50:02 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 11:50:02 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 11:50:02 [main] INFO  components.TranslateGizmo - Initialized TranslateGizmo
+2024-12-26 11:50:02 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 11:50:02 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 11:50:02 [main] INFO  components.ScaleGizmo - Initialized ScaleGizmo
+2024-12-26 11:50:02 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 11:50:02 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 11:50:02 [main] INFO  nova.MouseListener - Creating a new MouseListener instance.
+2024-12-26 11:50:02 [main] INFO  nova.KeyListener - Creating a new KeyListener instance.
+2024-12-26 11:50:05 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 11:50:06 [main] INFO  nova.Camera - Changing camera zoom by adding -0.1
+2024-12-26 11:50:06 [main] INFO  nova.Camera - Changing camera zoom by adding -0.07742636
+2024-12-26 11:50:06 [main] INFO  nova.Camera - Changing camera zoom by adding -0.06085599
+2024-12-26 11:50:06 [main] INFO  nova.Camera - Changing camera zoom by adding -0.04866061
+2024-12-26 11:50:06 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03959019
+2024-12-26 11:50:07 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03274506
+2024-12-26 11:50:07 [main] INFO  nova.Camera - Changing camera zoom by adding -0.027495407
+2024-12-26 11:50:07 [main] INFO  nova.Camera - Changing camera zoom by adding -0.023403501
+2024-12-26 11:50:07 [main] INFO  nova.Camera - Changing camera zoom by adding -0.020163953
+2024-12-26 11:50:07 [main] INFO  nova.Camera - Changing camera zoom by adding -0.017561575
+2024-12-26 11:50:07 [main] INFO  nova.Camera - Changing camera zoom by adding -0.015442767
+2024-12-26 11:50:23 [main] INFO  nova.Camera - Changing camera zoom by adding 0.0136963185
+2024-12-26 11:50:23 [main] INFO  nova.Camera - Changing camera zoom by adding 0.015239732
+2024-12-26 11:50:39 [main] INFO  nova.Camera - Changing camera zoom by adding 0.017058333
+2024-12-26 11:50:40 [main] INFO  nova.Camera - Changing camera zoom by adding 0.019217659
+2024-12-26 11:50:40 [main] INFO  nova.Camera - Changing camera zoom by adding 0.021802288
+2024-12-26 11:50:40 [main] INFO  nova.Camera - Changing camera zoom by adding 0.024922121
+2024-12-26 11:50:40 [main] INFO  nova.Camera - Changing camera zoom by adding 0.028720785
+2024-12-26 11:50:40 [main] INFO  nova.Camera - Changing camera zoom by adding 0.033386823
+2024-12-26 11:50:43 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 11:50:43 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 11:50:43 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 11:51:55 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 11:51:55 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 11:51:55 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 11:51:55 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 11:51:55 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 11:51:55 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 11:51:55 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 11:51:55 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 11:51:55 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 11:51:55 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 11:51:55 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 11:51:55 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 11:51:55 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 11:51:55 [main] INFO  components.TranslateGizmo - Initialized TranslateGizmo
+2024-12-26 11:51:55 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 11:51:55 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 11:51:55 [main] INFO  components.ScaleGizmo - Initialized ScaleGizmo
+2024-12-26 11:51:55 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 11:51:55 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 11:51:55 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 11:51:56 [main] INFO  nova.MouseListener - Creating a new MouseListener instance.
+2024-12-26 11:51:56 [main] INFO  nova.KeyListener - Creating a new KeyListener instance.
+2024-12-26 11:51:58 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 11:52:10 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 11:52:10 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 11:52:10 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 11:56:29 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 11:56:29 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 11:56:29 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 11:56:30 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 11:56:30 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 11:56:30 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 11:56:31 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 11:56:31 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 11:56:31 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 11:56:31 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 11:56:31 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 11:56:31 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 11:56:31 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 11:56:31 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 11:56:31 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 11:56:31 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 11:56:31 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 11:56:31 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 11:56:32 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 11:56:35 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 11:56:37 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 11:56:37 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 11:56:37 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 11:59:12 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=3840, height=2160
+2024-12-26 11:59:12 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 11:59:12 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 11:59:12 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 11:59:12 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 11:59:12 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 11:59:12 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 11:59:14 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.1
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.12328468
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.15224002
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.18750149
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.22920044
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.27671635
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.32859534
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.38274148
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.43684158
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.48883593
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.5372349
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.5812037
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.6204691
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.65515
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.68559235
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.71224475
+2024-12-26 11:59:15 [main] INFO  nova.Camera - Changing camera zoom by adding 0.7355776
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.75603855
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.7349597
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.7106988
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.682669
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.6502066
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.6126075
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.56921566
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.51960045
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.46385396
+2024-12-26 11:59:16 [main] INFO  nova.Camera - Changing camera zoom by adding -0.40299678
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.33934772
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.27651972
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.21868052
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.16920611
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding 0.12958474
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding 0.15998669
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.19678184
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.15138108
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.11584535
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.08912765
+2024-12-26 11:59:17 [main] INFO  nova.Camera - Changing camera zoom by adding -0.06943951
+2024-12-26 11:59:34 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 11:59:34 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 11:59:34 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 11:59:34 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 11:59:35 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 11:59:35 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 11:59:35 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 11:59:35 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 11:59:35 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 11:59:35 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 11:59:35 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 11:59:35 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 11:59:35 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 11:59:35 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 11:59:35 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 11:59:35 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 11:59:35 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 11:59:35 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 11:59:36 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 11:59:38 [main] INFO  nova.Camera - Changing camera zoom by adding -0.1
+2024-12-26 11:59:38 [main] INFO  nova.Camera - Changing camera zoom by adding -0.07742636
+2024-12-26 11:59:38 [main] INFO  nova.Camera - Changing camera zoom by adding -0.06085599
+2024-12-26 11:59:38 [main] INFO  nova.Camera - Changing camera zoom by adding -0.04866061
+2024-12-26 11:59:38 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03959019
+2024-12-26 11:59:38 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03274506
+2024-12-26 11:59:40 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 11:59:40 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 11:59:40 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:00:28 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:00:28 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:00:28 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:00:28 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:00:28 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:00:28 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:00:29 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:00:29 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:00:29 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:00:29 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:00:29 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:00:29 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:00:29 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:00:29 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:00:29 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:00:29 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:00:29 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:00:29 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:00:49 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:00:50 [main] INFO  nova.Camera - Changing camera zoom by adding -0.1
+2024-12-26 12:00:50 [main] INFO  nova.Camera - Changing camera zoom by adding -0.07742636
+2024-12-26 12:00:50 [main] INFO  nova.Camera - Changing camera zoom by adding -0.06085599
+2024-12-26 12:00:51 [main] INFO  nova.Camera - Changing camera zoom by adding -0.04866061
+2024-12-26 12:00:51 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03959019
+2024-12-26 12:00:51 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03274506
+2024-12-26 12:00:51 [main] INFO  nova.Camera - Changing camera zoom by adding -0.027495407
+2024-12-26 12:00:54 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 12:00:58 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:00:58 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:00:58 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:02:33 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:02:33 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:02:33 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:02:33 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:02:34 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:02:34 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:02:34 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:02:34 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:02:35 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:02:35 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:02:35 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:02:35 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:02:35 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:02:35 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:02:35 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:02:35 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:02:35 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:02:35 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:02:36 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:02:40 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 12:02:43 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:02:43 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:02:43 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:03:20 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:03:20 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:03:20 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:03:20 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:03:21 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:03:21 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:03:21 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:03:21 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:03:21 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:03:21 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:03:21 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:03:21 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:03:21 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:03:21 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:03:21 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:03:21 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:03:21 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:03:21 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:03:22 [main] INFO  nova.Camera - Changing camera zoom by adding -0.1
+2024-12-26 12:03:22 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.07742636
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.06085599
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.04866061
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03959019
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.03274506
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.027495407
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.023403501
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.020163953
+2024-12-26 12:03:24 [main] INFO  nova.Camera - Changing camera zoom by adding -0.017561575
+2024-12-26 12:03:26 [main] INFO  nova.Camera - Changing camera zoom by adding -0.015442767
+2024-12-26 12:03:26 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 12:03:28 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:03:28 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:03:28 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:04:10 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:04:10 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:04:10 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:04:11 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:04:11 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:04:11 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:04:11 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:04:11 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:04:11 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:04:11 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:04:11 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:04:11 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:04:11 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:04:11 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:04:11 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:04:11 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:04:11 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:04:11 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:04:12 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:04:13 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 12:04:14 [main] INFO  scenes.Scene - Adding GameObject: 7 to scene.
+2024-12-26 12:04:15 [main] INFO  scenes.Scene - Adding GameObject: 8 to scene.
+2024-12-26 12:04:16 [main] INFO  scenes.Scene - Adding GameObject: 9 to scene.
+2024-12-26 12:04:22 [main] INFO  scenes.Scene - Adding GameObject: 10 to scene.
+2024-12-26 12:04:22 [main] INFO  scenes.Scene - Adding GameObject: 11 to scene.
+2024-12-26 12:04:24 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:04:24 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:04:24 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:06:03 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:06:03 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:06:03 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:06:03 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:06:03 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:06:04 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:06:04 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:06:04 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:06:04 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:06:04 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:06:04 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:06:04 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:06:04 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:06:06 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 12:06:09 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:06:09 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:06:09 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:07:27 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:07:27 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:07:27 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:07:27 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:07:27 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:07:27 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:07:27 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:07:27 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:07:27 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:07:27 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:07:27 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:07:27 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:07:27 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:07:27 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:07:27 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:07:27 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:07:27 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:07:27 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:07:28 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:07:30 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:07:30 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:07:30 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:09:06 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:09:06 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:09:06 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:09:06 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:09:06 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:09:06 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:09:06 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:09:07 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:09:07 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:09:07 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:09:07 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:09:07 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:09:07 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:09:07 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:09:07 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:09:07 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:09:07 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:09:07 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:09:32 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:09:32 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:09:32 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 12:10:36 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 12:10:36 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 12:10:37 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 12:10:37 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 12:10:37 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 12:10:37 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 12:10:37 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 12:10:37 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 12:10:37 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 12:10:37 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 12:10:37 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 12:10:37 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 12:10:37 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 12:10:37 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 12:10:37 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 12:10:37 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 12:10:37 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 12:10:37 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 12:10:41 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 12:10:45 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 12:10:50 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 12:10:50 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 12:10:50 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback
+2024-12-26 13:40:07 [main] INFO  nova.Window - Creating a new Window instance.
+2024-12-26 13:40:07 [main] INFO  nova.Window - Starting the engine with LWJGL Version: 3.3.4+7
+2024-12-26 13:40:07 [main] INFO  nova.Window - Initializing GLFW
+2024-12-26 13:40:08 [main] INFO  nova.Window - Creating the GLFW window
+2024-12-26 13:40:09 [main] INFO  nova.Window - Creating LWJGL OpenGL Capabilities
+2024-12-26 13:40:09 [main] INFO  nova.Window - Initializing Framebuffer
+2024-12-26 13:40:10 [main] INFO  renderer.Framebuffer - Created new Framebuffer object. width=1360, height=768
+2024-12-26 13:40:10 [main] INFO  nova.Window - Initializing ImGuiLayer
+2024-12-26 13:40:11 [main] INFO  nova.Window - Window initialized successfully.
+2024-12-26 13:40:11 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:40:12 [main] INFO  scenes.Scene - Adding GameObject: 0 to scene.
+2024-12-26 13:40:12 [main] INFO  scenes.Scene - Adding GameObject: 1 to scene.
+2024-12-26 13:40:12 [main] INFO  scenes.Scene - Adding GameObject: 2 to scene.
+2024-12-26 13:40:12 [main] INFO  scenes.Scene - Adding GameObject: 3 to scene.
+2024-12-26 13:40:12 [main] INFO  scenes.Scene - Adding GameObject: 4 to scene.
+2024-12-26 13:40:12 [main] INFO  nova.Window - Entering the main engine loop.
+2024-12-26 13:40:12 [main] INFO  nova.Window - Window resized to 1360x699
+2024-12-26 13:40:12 [main] INFO  nova.Window - Window resized to 1680x1013
+2024-12-26 13:40:13 [main] INFO  scenes.Scene - Adding GameObject: 5 to scene.
+2024-12-26 13:40:23 [main] INFO  scenes.Scene - Adding GameObject: 6 to scene.
+2024-12-26 13:40:30 [main] INFO  nova.Window - Starting runtime
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Saving and exiting Scene
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 7 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 15 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 16 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 17 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 18 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 19 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 20 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 21 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 22 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 23 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 24 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 25 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 26 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 27 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 28 to scene.
+2024-12-26 13:40:30 [main] INFO  scenes.Scene - Adding GameObject: 29 to scene.
+2024-12-26 13:40:32 [main] INFO  nova.Window - Stopping runtime
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 30 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 38 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 39 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 40 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 41 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 42 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 43 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 44 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 45 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 46 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 47 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 48 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 49 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 50 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 51 to scene.
+2024-12-26 13:40:32 [main] INFO  scenes.Scene - Adding GameObject: 52 to scene.
+2024-12-26 13:41:18 [main] INFO  scenes.Scene - Adding GameObject: 53 to scene.
+2024-12-26 13:41:27 [main] INFO  nova.Window - Starting runtime
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Saving and exiting Scene
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 54 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 68 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 69 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 70 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 71 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 72 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 73 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 74 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 82 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 83 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 84 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 85 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 86 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 87 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 88 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 89 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 90 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 91 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 92 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 93 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 94 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 95 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 96 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 97 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 98 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 99 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 100 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 101 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 102 to scene.
+2024-12-26 13:41:27 [main] INFO  scenes.Scene - Adding GameObject: 103 to scene.
+2024-12-26 13:41:29 [main] INFO  nova.Window - Stopping runtime
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 104 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 118 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 119 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 120 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 121 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 122 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 123 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 124 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 132 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 133 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 134 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 135 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 136 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 137 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 138 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 139 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 140 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 141 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 142 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 143 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 144 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 145 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 146 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 147 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 148 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 149 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 150 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 151 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 152 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 153 to scene.
+2024-12-26 13:41:29 [main] INFO  nova.Window - Starting runtime
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Saving and exiting Scene
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 154 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 172 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 173 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 174 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 175 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 176 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 177 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 178 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 190 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 191 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 192 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 193 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 194 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 195 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 196 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 197 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 198 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 199 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 204 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 205 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 206 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 207 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 208 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 209 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 210 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 211 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 212 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 213 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 214 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 215 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 216 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 217 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 218 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 219 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 220 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 221 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 222 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 223 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 224 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 225 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 226 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 227 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 228 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 229 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 230 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 231 to scene.
+2024-12-26 13:41:29 [main] INFO  scenes.Scene - Adding GameObject: 232 to scene.
+2024-12-26 13:41:31 [main] INFO  nova.Window - Stopping runtime
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 233 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 251 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 252 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 253 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 254 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 255 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 256 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 257 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 269 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 270 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 271 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 272 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 273 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 274 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 275 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 276 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 277 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 278 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 283 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 284 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 285 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 286 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 287 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 288 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 289 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 290 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 291 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 292 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 293 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 294 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 295 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 296 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 297 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 298 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 299 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 300 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 301 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 302 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 303 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 304 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 305 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 306 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 307 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 308 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 309 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 310 to scene.
+2024-12-26 13:41:31 [main] INFO  scenes.Scene - Adding GameObject: 311 to scene.
+2024-12-26 13:41:32 [main] INFO  nova.Window - Starting runtime
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Saving and exiting Scene
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 312 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 334 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 335 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 336 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 337 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 338 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 339 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 340 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 356 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 357 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 358 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 359 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 360 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 361 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 362 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 363 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 364 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 365 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 374 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 375 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 376 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 377 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 378 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 379 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 380 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 381 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 382 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 383 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 384 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 385 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 386 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 391 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 392 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 393 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 394 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 395 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 396 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 397 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 398 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 399 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 400 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 401 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 402 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 403 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 404 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 405 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 406 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 407 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 408 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 409 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 410 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 411 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 412 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 413 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 414 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 415 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 416 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 417 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 418 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 419 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 420 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 421 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 422 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 423 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 424 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 425 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 426 to scene.
+2024-12-26 13:41:32 [main] INFO  scenes.Scene - Adding GameObject: 427 to scene.
+2024-12-26 13:41:33 [main] INFO  nova.Window - Stopping runtime
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Loading Scene
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 428 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 450 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 451 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 452 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 453 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 454 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 455 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 456 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 472 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 473 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 474 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 475 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 476 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 477 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 478 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 479 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 480 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 481 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 490 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 491 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 492 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 493 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 494 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 495 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 496 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 497 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 498 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 499 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 500 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 501 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 502 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 507 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 508 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 509 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 510 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 511 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 512 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 513 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 514 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 515 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 516 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 517 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 518 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 519 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 520 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 521 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 522 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 523 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 524 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 525 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 526 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 527 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 528 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 529 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 530 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 531 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 532 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 533 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 534 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 535 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 536 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 537 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 538 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 539 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 540 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 541 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 542 to scene.
+2024-12-26 13:41:33 [main] INFO  scenes.Scene - Adding GameObject: 543 to scene.
+2024-12-26 13:41:36 [main] INFO  nova.Window - Exiting the main engine loop.
+2024-12-26 13:41:36 [main] INFO  nova.Window - Free the GLFW callbacks and destroy the GLFW window
+2024-12-26 13:41:36 [main] INFO  nova.Window - Terminating GLFW and freeing the error callback

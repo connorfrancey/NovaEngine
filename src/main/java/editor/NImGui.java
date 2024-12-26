@@ -3,6 +3,7 @@ package editor;
 import imgui.ImGui;
 import imgui.flag.ImGuiCol;
 import imgui.flag.ImGuiStyleVar;
+import imgui.type.ImString;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.joml.Vector2f;
@@ -10,7 +11,6 @@ import org.joml.Vector3f;
 import org.joml.Vector4f;
 
 public class NImGui {
-    private static final Logger LOGGER = LogManager.getLogger(NImGui.class);
 
     private static float defaultColumnWidth = 220.0f;
 
@@ -28,6 +28,7 @@ public class NImGui {
         ImGui.columns(2);
         ImGui.setColumnWidth(0, columnWidth);
         ImGui.text(label);
+        ImGui.nextColumn();
 
         ImGui.pushStyleVar(ImGuiStyleVar.ItemSpacing, 0, 0);
 
@@ -177,7 +178,7 @@ public class NImGui {
         ImGui.nextColumn();
 
         int[] valArr = {value};
-        ImGui.dragInt("##dragInt", valArr, 0.1f);
+        ImGui.dragInt("##dragFloat", valArr, 0.1f);
 
         ImGui.columns(1);
         ImGui.popID();
@@ -185,7 +186,7 @@ public class NImGui {
         return valArr[0];
     }
 
-    public static final boolean colorPicker4(String label, Vector4f color) {
+    public static boolean colorPicker4(String label, Vector4f color) {
         boolean res = false;
         ImGui.pushID(label);
 
@@ -206,4 +207,25 @@ public class NImGui {
         return res;
     }
 
+    public static String inputText(String label, String text) {
+        ImGui.pushID(label);
+
+        ImGui.columns(2);
+        ImGui.setColumnWidth(0, defaultColumnWidth);
+        ImGui.text(label);
+        ImGui.nextColumn();
+
+        ImString outString = new ImString(text, 256);
+        if (ImGui.inputText("##" + label, outString)) {
+            ImGui.columns(1);
+            ImGui.popID();
+
+            return outString.get();
+        }
+
+        ImGui.columns(1);
+        ImGui.popID();
+
+        return text;
+    }
 }

@@ -4,6 +4,7 @@ import components.*;
 import imgui.ImGui;
 import imgui.ImVec2;
 import nova.GameObject;
+import nova.MouseListener;
 import nova.Prefabs;
 import org.joml.Vector2f;
 import util.AssetPool;
@@ -55,6 +56,9 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
     @Override
     public void imgui() {
+        System.out.println("X: " + MouseListener.getScreenX());
+        System.out.println("Y: " + MouseListener.getScreenY());
+
         ImGui.begin("Level Editor Stuff");
         levelEditorStuff.imgui();
         ImGui.end();
@@ -78,7 +82,7 @@ public class LevelEditorSceneInitializer extends SceneInitializer {
 
             ImGui.pushID(i);
             if (ImGui.imageButton(id, spriteWidth, spriteHeight, texCoords[2].x, texCoords[0].y, texCoords[0].x, texCoords[2].y)) {
-                GameObject object = Prefabs.generateSpriteObject(sprite, 32, 32);
+                GameObject object = Prefabs.generateSpriteObject(sprite, 0.25f, 0.25f);
                 levelEditorStuff.getComponent(MouseControls.class).pickupObject(object);
             }
             ImGui.popID();

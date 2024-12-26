@@ -7,17 +7,16 @@ import org.joml.Vector2f;
 import org.joml.Vector3f;
 
 public class Camera {
-    // Logger
-    private static final Logger LOGGER = LogManager.getLogger(Camera.class);
-
     private Matrix4f projectionMatrix, viewMatrix, inverseProjection, inverseView;
     public Vector2f position;
-    private Vector2f projectionSize = new Vector2f(32.0f * 40.0f, 32.0f * 21.0f);
+
+    private float projectionWidth = 6;
+    private float projectionHeight = 3;
+    private Vector2f projectionSize = new Vector2f(projectionWidth, projectionHeight);
 
     private float zoom = 1.0f;
 
     public Camera(Vector2f position) {
-
         this.position = position;
         this.projectionMatrix = new Matrix4f();
         this.viewMatrix = new Matrix4f();
@@ -27,7 +26,6 @@ public class Camera {
     }
 
     public void adjustProjection() {
-
         projectionMatrix.identity();
         projectionMatrix.ortho(0.0f, projectionSize.x * this.zoom,
                 0.0f, projectionSize.y * zoom, 0.0f, 100.0f);
@@ -67,12 +65,10 @@ public class Camera {
     }
 
     public void setZoom(float zoom) {
-        LOGGER.info("Set new camera zoom to: {}", zoom);
         this.zoom = zoom;
     }
 
     public void addZoom(float value) {
-        LOGGER.info("Changing camera zoom by adding {}", value);
         this.zoom += value;
     }
 }

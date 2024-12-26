@@ -1,6 +1,7 @@
 package nova;
 
 import components.Component;
+import editor.NImGui;
 import org.joml.Vector2f;
 
 public class Transform extends Component {
@@ -32,12 +33,19 @@ public class Transform extends Component {
         return new Transform(new Vector2f(this.position), new Vector2f(this.scale));
     }
 
+    @Override
+    public void imgui() {
+        gameObject.name = NImGui.inputText("Name: ", gameObject.name);
+        NImGui.drawVec2Control("Position", this.position);
+        NImGui.drawVec2Control("Scale", this.scale, 32.0f);
+        this.rotation = NImGui.dragFloat("Rotation", this.rotation);
+        this.zIndex = NImGui.dragInt("Z-Index", this.zIndex);
+    }
+
     public void copy(Transform to) {
         to.position.set(this.position);
         to.scale.set(this.scale);
     }
-
-
 
     @Override
     public boolean equals(Object o) {
@@ -45,6 +53,7 @@ public class Transform extends Component {
         if (!(o instanceof Transform)) return false;
 
         Transform t = (Transform)o;
-        return t.position.equals(this.position) && t.scale.equals(this.scale);
+        return t.position.equals(this.position) && t.scale.equals(this.scale) &&
+                t.rotation == this.rotation && t.zIndex == this.zIndex;
     }
 }

@@ -24,8 +24,6 @@ import java.util.List;
 import java.util.Optional;
 
 public class Scene {
-    // Logger
-    private static final Logger LOGGER = LogManager.getLogger(Scene.class);
 
     private Renderer renderer;
     private Camera camera;
@@ -44,7 +42,7 @@ public class Scene {
     }
 
     public void init() {
-        this.camera = new Camera(new Vector2f(-250, 0));
+        this.camera = new Camera(new Vector2f(0, 0));
         this.sceneInitializer.loadResources(this);
         this.sceneInitializer.init(this);
     }
@@ -60,8 +58,6 @@ public class Scene {
     }
 
     public void addGameObjectToScene(GameObject go) {
-        LOGGER.info("Adding GameObject: {} to scene.", go.getUid());
-
         if (!isRunning) {
             gameObjects.add(go);
         } else {
@@ -126,6 +122,10 @@ public class Scene {
         this.renderer.render();
     }
 
+    public Camera camera() {
+        return this.camera;
+    }
+
     public void imgui() {
         this.sceneInitializer.imgui();
     }
@@ -138,8 +138,6 @@ public class Scene {
     }
 
     public void save() {
-        LOGGER.info("Saving and exiting Scene");
-
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .registerTypeAdapter(Component.class, new ComponentDeserializer())
@@ -147,17 +145,21 @@ public class Scene {
                 .create();
 
         try {
-            FileWriter writer = new FileWriter("assets/data/level.txt");
-            writer.write(gson.toJson(this.gameObjects));
+            FileWriter writer = new FileWriter("level.txt");
+            List<GameObject> objsToSerialize = new ArrayList<>();
+            for (GameObject obj : this.gameObjects) {
+                if (obj.doSerialization()) {
+                    objsToSerialize.add(obj);
+                }
+            }
+            writer.write(gson.toJson(objsToSerialize));
             writer.close();
-        } catch (IOException e) {
+        } catch(IOException e) {
             e.printStackTrace();
         }
     }
 
     public void load() {
-        LOGGER.info("Loading Scene");
-
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .registerTypeAdapter(Component.class, new ComponentDeserializer())
@@ -166,7 +168,7 @@ public class Scene {
 
         String inFile = "";
         try {
-            inFile = new String(Files.readAllBytes(Paths.get("assets/data/level.txt")));
+            inFile = new String(Files.readAllBytes(Paths.get("level.txt")));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -193,9 +195,5 @@ public class Scene {
             GameObject.init(maxGoId);
             Component.init(maxCompId);
         }
-    }
-
-    public Camera camera() {
-        return this.camera;
     }
 }

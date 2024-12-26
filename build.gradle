@@ -16,9 +16,13 @@ repositories {
 project.ext.lwjglVersion = '3.3.4'
 project.ext.jomlVersion = '1.10.7'
 project.ext.lwjglNatives = "natives-linux"
-project.ext.imguiVersion = '1.87.6'
-
+project.ext.imguiVersion = '1.81.0'
 project.ext.toml4jVersion = '0.7.2'
+project.ext.jansiVersion = '2.3.2'
+project.ext.gsonVersion = '2.8.9'
+project.ext.ini4jVersion = '0.5.4'
+project.ext.log4jVersion = '2.20.0'
+project.ext.oshiVersion = '6.4.0'
 
 dependencies {
     // Box2D
@@ -48,26 +52,27 @@ dependencies {
     implementation "org.joml:joml:${jomlVersion}"
 
     // GSON
-    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation "com.google.code.gson:gson:${gsonVersion}"
 
     // JANSI
-    implementation 'org.fusesource.jansi:jansi:2.3.2'
+    implementation "org.fusesource.jansi:jansi:${jansiVersion}"
 
     // INI4J
-    implementation 'org.ini4j:ini4j:0.5.4'
+    implementation "org.ini4j:ini4j:${ini4jVersion}"
 
     // TOML4J
     implementation "com.moandjiezana.toml:toml4j:${toml4jVersion}"
 
     // IMGUI
-    implementation fileTree('libs') { include '*.jar' }
+//    implementation fileTree('libs') { include '*.jar' }
+    implementation "io.github.spair:imgui-java-app:$imguiVersion"
 
     // OSHI
-    implementation 'com.github.oshi:oshi-core:6.4.0'
+    implementation "com.github.oshi:oshi-core:${oshiVersion}"
 
     // Log4J2
-    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
-    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+    implementation "org.apache.logging.log4j:log4j-core:${log4jVersion}"
+    implementation "org.apache.logging.log4j:log4j-api:${log4jVersion}"
 }
 
 test {

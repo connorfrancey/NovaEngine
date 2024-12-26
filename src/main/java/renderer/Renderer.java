@@ -27,7 +27,7 @@ public class Renderer {
     private void add(SpriteRenderer sprite) {
         boolean added = false;
         for (RenderBatch batch : batches) {
-            if (batch.hasRoom()) {
+            if (batch.hasRoom() && batch.zIndex() == sprite.gameObject.transform.zIndex) {
                 Texture tex = sprite.getTexture();
                 if (tex == null || (batch.hasTexture(tex) || batch.hasTextureRoom())) {
                     batch.addSprite(sprite);
@@ -38,7 +38,8 @@ public class Renderer {
         }
 
         if (!added) {
-            RenderBatch newBatch = new RenderBatch(MAX_BATCH_SIZE, sprite.gameObject.transform.zIndex);
+            RenderBatch newBatch = new RenderBatch(MAX_BATCH_SIZE,
+                    sprite.gameObject.transform.zIndex, this);
             newBatch.start();
             batches.add(newBatch);
             newBatch.addSprite(sprite);
@@ -65,8 +66,8 @@ public class Renderer {
 
     public void render() {
         currentShader.use();
-
-        for (RenderBatch batch : batches) {
+        for (int i = 0; i < batches.size(); i++) {
+            RenderBatch batch = batches.get(i);
             batch.render();
         }
     }
